@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de carro</title>
+</head>
+<body>
+    <h1>Consumo do carro</h1>
+
+    <script>
+        var tanque = prompt("Digite a capacidade do tanque")
+        var distancia_gasolina = prompt("Digite a distância percorrida com gasolina")
+        var distancia_litroG = distancia_gasolina / tanque
+        var distancia_alcool = prompt("Digite a distância pecorrida com álcool")
+        var distancia_litroA = distancia_alcool / tanque
+        var preçoG = (tanque / distancia_gasolina) * 2.90
+        var preçoA = (tanque / distancia_alcool) * 2.40
+
+        document.write(`A distância por litro da gasolina é ${distancia_litroG} Km/l. <br> A distância por litro do álcool é ${distancia_litroA} Km/l <br> O preço da gasolina é ${preçoG.toFixed(2)} R$ <br> O preço do álcool é de ${preçoA} R$`)
+    </script>
+</body>
+</html>
