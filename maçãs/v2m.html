@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v2 das maçãs</title>
+</head>
+<body>
+    <h1>Maçãs V2</h1>
+
+    <script>
+        var masas = Number(prompt("Digite a quantidade de maçãs"))
+        var mvermelhas = Number(prompt("quantas são vermelhas?"))
+        var mverdes = Number(prompt("quantas são verdes?"))
+        masastotal = mvermelhas + mverdes
+        if (masastotal != masas) {
+            document.write(`Os números de maçãs são incompatíveis! ${mvermelhas} + ${mverdes} é diferente de ${masas}. Por favor, tente novamente.`)
+        }
+        else if (masas >= 1 & mvermelhas == 0) {
+            document.write(`Verdadeiro! Obrigado pelas maçãs Verdes.`)
+        } else {
+            document.write(`Falso! Não quero maçãs VERMELHAS. Só quero maçãs VERDES.`)
+        }
+    </script>
+</body>
+</html>
