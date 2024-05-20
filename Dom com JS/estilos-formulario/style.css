@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(59, 157, 223);
+    font-size: 1.2em;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+input {
+    
+}
+
+section {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+    padding: 20px;
+    width: 750px;
+    height: 950px;
+    margin: auto;
+}

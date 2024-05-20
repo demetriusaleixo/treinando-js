@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrado e cubo de um número</title>
+</head>
+<body>
+    <script>
+        function quadrado(x) {
+            document.write(x*x)
+        }
+        function cubo(x) {
+            return x*x*x
+        }
+        y=5
+        document.write('O quadrado de ' + y + ' é ') 
+        quadrado(y)
+    </script>
+
+    <form action="">
+        <p>Informe um valor e em seguida aperte TAB ou clique fora da caixa de texto para saber o cubo do número</p>
+
+        <input type="text" name="aocubo" id="" onblur="alert('O cubo de ' + this.value + ' é ' + cubo(this.value))">
+    </form>
+</body>
+</html>

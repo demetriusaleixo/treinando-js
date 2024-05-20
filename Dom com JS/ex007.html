@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Três botões</title>
+</head>
+<body>
+    <script>
+        function abre1() {
+            window.open('http://www.google.com')
+        }
+        function abre2() {
+            window.open('http://www.google.com','simples','width=350,heigth=400')
+        }
+        function abre3() {
+            window.open('http://www.google.com','simples','menubar,scrollbars,width=350,heigth=200')
+        }
+    </script>
+
+    <input type="button" value="abrir" onclick="abre1()"> Janela simples <br>
+    <input type="button" value="abrir" onclick="abre2()"> Janela com 350px de largura e 400px de altura. Sem barra e menu <br>
+    <input type="button" value="abrir" onclick="abre3()"> Janela com barra de rolagem e menu e sem barra de endereço
+</body>
+</html>
